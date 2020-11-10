@@ -1,0 +1,29 @@
+{
+  "name": "personal_site",
+  "version": "1.0.0",
+  "description": "template for personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-lana-l/personal_site.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Lana l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-lana-l/personal_site/issues"
+  },
+  "homepage": "https://github.com/just-lana-l/personal_site#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp-sass": "^4.1.0"
+  }
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* не забудь подключить бутстрап ребут мин css*/
+.promo {
+  min-height: 100vh;
+  position: relative;
+  background: url(../img/Background.jpg) no-repeat 50%/cover;
+  padding-top: 205px; }
+  .promo__title {
+    width: 535px;
+    margin-top: 10px; }
+  .promo__btns {
+    margin-top: 25px;
+    display: flex;
+    width: 250px; }
+  .promo__link {
+    font-weight: bold;
+    color: #000; }
+    .promo__link:hover {
+      text-decoration: none;
+      color: #000; }
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px; }
+  .title_fz14 {
+    font-size: 14px;
+    line-height: 21px; }
+  .title_fz16 {
+    font-size: 16px;
+    line-height: 24px; }
+  .title_fz48 {
+    font-size: 48px; }
+
+.btn {
+  height: 45px;
+  background: #FFA501;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 12px 25px; }
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
