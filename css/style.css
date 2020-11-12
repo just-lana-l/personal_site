@@ -8,10 +8,26 @@
   .promo__title {
     width: 535px;
     margin-top: 10px; }
+  .promo__subtitle {
+    position: relative;
+    padding-left: 10px;
+    z-index: 2; }
+    .promo__subtitle:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: -25%;
+      left: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+      background-color: #FFA501; }
   .promo__btns {
     margin-top: 25px;
     display: flex;
-    width: 250px; }
+    width: 250px;
+    align-items: center;
+    justify-content: space-between; }
   .promo__link {
     font-weight: bold;
     color: #000; }
@@ -37,6 +53,46 @@
   background: #FFA501;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 12px 25px; }
+
+.sidepanel {
+  align-items: center;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+  position: fixed;
+  top: 230px;
+  left: 50px; }
+  .sidepanel__divider {
+    width: 2px;
+    height: 70px;
+    background-color: black; }
+  .sidepanel__text {
+    height: 150px;
+    width: 25px; }
+    .sidepanel__text span {
+      transform: rotate(-90deg) translate(-30%, -160%);
+      display: block;
+      width: 100px; }
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer; }
+  .hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #151812; }
+  .hamburger span.long {
+    width: 36px; }
 
 * {
   font-family: 'Poppins', sans-serif;

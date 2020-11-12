@@ -1,9 +1,13 @@
 /* не забудь подключить бутстрап ребут мин css*/
 @import "base/variables";
+@import 'base/mixins';
 
 @import "blocks/promo";
 @import "blocks/title";
 @import "blocks/button";
+@import "blocks/sidepanel";
+@import "blocks/menu";
+
 
 * {
     font-family: 'Poppins', sans-serif;
