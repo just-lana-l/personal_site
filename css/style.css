@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /* не забудь подключить бутстрап ребут мин css*/
 .promo {
-  min-height: 100vh;
+  color: white;
+  min-height: 70vh;
   position: relative;
-  background: url(../img/lcap-back.jpg) no-repeat 50%/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 70%), url(../img/unsplash-1.jpg) no-repeat 50%/cover;
   padding-top: 205px; }
   .promo__title {
-    width: 535px;
+    width: 700px;
     margin-top: 10px; }
   .promo__subtitle {
     position: relative;
