@@ -22,9 +22,9 @@
         column-gap: 135px;
     }
     &__column {
-        
         &-title {
-            
+            padding-left: 35px;
+            position: relative;
             &:before {
                 content: '';
                 position: absolute;
@@ -32,9 +32,48 @@
                 height: 15px;
                 background-color: $main-color;
                 border-radius: 100%;
-                left: 0;
+                left: -6px;
                 top: 50%;
                 transform: translateY(-50%);
+            }
+        }
+        ul {
+            list-style-type: none;
+            li {
+                position: relative;
+                &::after {
+                    content: '';
+                    width: 1px;
+                    height: 85%;
+                    position: absolute;
+                    background-color: black;
+                    top: 35px;
+                }
+            }
+        }
+    }
+
+    &__item {
+        padding-top: 35px;
+        &-head {
+            position: relative;
+            padding-left: 90px;
+            h4 {
+            margin-bottom: 0;
+            }
+            
+        }
+        &-body {
+            padding: 12px 0 0 35px;
+        }
+        &-icon {
+            position: absolute;
+            left: 35px;
+            @include before_circle;
+            img {
+                position: absolute;
+                top: 12px;
+                left: 18px;
             }
         }
     }
