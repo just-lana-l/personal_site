@@ -412,7 +412,7 @@
   .contacts__wrapper {
     padding: 0 35px 0 52px;
     display: grid;
-    grid-template-columns: 400px 585px;
+    grid-template-columns: 595px 395px;
     justify-content: space-between; }
   .contacts__photo img {
     width: 100%; }
@@ -431,13 +431,9 @@
       height: 36px;
       border-radius: 100%;
       background-color: #ee4e04; }
-  .contacts__text {
-    padding-top: 20px; }
-  .contacts__social {
-    padding-top: 20px; }
-    .contacts__social img {
-      width: 30px;
-      margin-right: 25px; }
+  .contacts__social img {
+    width: 30px;
+    margin-right: 25px; }
   .contacts__text, .contacts__social {
     margin-top: 20px; }
   .contacts__link {

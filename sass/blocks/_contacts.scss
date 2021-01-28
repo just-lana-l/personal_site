@@ -3,7 +3,7 @@
     &__wrapper {
         padding: 0 35px 0 52px;
         display: grid;
-        grid-template-columns: 400px 585px;
+        grid-template-columns: 595px 395px;
         justify-content: space-between;
     }
     &__photo {
@@ -21,12 +21,7 @@
         padding: 1px 0 0 12px;
         @include before_circle;
     }
-
-    &__text {
-        padding-top: 20px;
-    }
     &__social {
-        padding-top: 20px;
         img {
             width: 30px;
             margin-right: 25px;
